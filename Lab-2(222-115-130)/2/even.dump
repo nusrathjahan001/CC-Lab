@@ -1,0 +1,34 @@
+
+even.o:     file format pe-i386
+
+
+Disassembly of section .text:
+
+00000000 <_main>:
+   0:	55                   	push   ebp
+   1:	89 e5                	mov    ebp,esp
+   3:	83 e4 f0             	and    esp,0xfffffff0
+   6:	83 ec 20             	sub    esp,0x20
+   9:	e8 00 00 00 00       	call   e <_main+0xe>
+   e:	8d 44 24 14          	lea    eax,[esp+0x14]
+  12:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  16:	8d 44 24 18          	lea    eax,[esp+0x18]
+  1a:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  1e:	c7 04 24 00 00 00 00 	mov    DWORD PTR [esp],0x0
+  25:	e8 00 00 00 00       	call   2a <_main+0x2a>
+  2a:	8b 54 24 18          	mov    edx,DWORD PTR [esp+0x18]
+  2e:	8b 44 24 14          	mov    eax,DWORD PTR [esp+0x14]
+  32:	01 d0                	add    eax,edx
+  34:	89 44 24 1c          	mov    DWORD PTR [esp+0x1c],eax
+  38:	8b 44 24 1c          	mov    eax,DWORD PTR [esp+0x1c]
+  3c:	83 e0 01             	and    eax,0x1
+  3f:	85 c0                	test   eax,eax
+  41:	75 0e                	jne    51 <_main+0x51>
+  43:	c7 04 24 06 00 00 00 	mov    DWORD PTR [esp],0x6
+  4a:	e8 00 00 00 00       	call   4f <_main+0x4f>
+  4f:	eb 0c                	jmp    5d <_main+0x5d>
+  51:	c7 04 24 0a 00 00 00 	mov    DWORD PTR [esp],0xa
+  58:	e8 00 00 00 00       	call   5d <_main+0x5d>
+  5d:	b8 00 00 00 00       	mov    eax,0x0
+  62:	c9                   	leave  
+  63:	c3                   	ret    
