@@ -1,0 +1,3 @@
+
+char ch = 'A';
+float pi = 3.1416;

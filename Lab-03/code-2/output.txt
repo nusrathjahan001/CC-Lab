@@ -1,0 +1,14 @@
+int -> KEYWORD
+main -> IDENTIFIER
+( -> LPAREN
+) -> RPAREN
+{ -> LBRACE
+printf -> IDENTIFIER
+( -> LPAREN
+"Hello, World!\n" -> STRING_LITERAL
+) -> RPAREN
+; -> SEMICOLON
+return -> KEYWORD
+0 -> NUMBER
+; -> SEMICOLON
+} -> RBRACE

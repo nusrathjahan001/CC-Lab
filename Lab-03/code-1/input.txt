@@ -1,0 +1,16 @@
+int main() {
+    int a = 10, b = 5, result;
+    float f = 3.5;
+    char symbol = '+';
+
+    if (a > b) {
+        result = a + b;
+        printf("Addition result: %d\n", result);
+    } else {
+        result = a - b;
+        printf("Subtraction result: %d\n", result);
+    }
+
+    printf("Float value: %.2f and symbol: %c\n", f, symbol);
+    return 0;
+}

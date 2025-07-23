@@ -1,0 +1,12 @@
+int -> KEYWORD
+x -> IDENTIFIER
+= -> OPERATOR
+5 -> NUMBER
+; -> SEMICOLON
+printf -> IDENTIFIER
+( -> LPAREN
+"Value is: %d\n" -> STRING_LITERAL
+, -> COMMA
+x -> IDENTIFIER
+) -> RPAREN
+; -> SEMICOLON
