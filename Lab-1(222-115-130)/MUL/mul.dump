@@ -1,0 +1,31 @@
+
+mul.o:     file format pe-i386
+
+
+Disassembly of section .text:
+
+00000000 <_main>:
+   0:	55                   	push   ebp
+   1:	89 e5                	mov    ebp,esp
+   3:	83 e4 f0             	and    esp,0xfffffff0
+   6:	83 ec 20             	sub    esp,0x20
+   9:	e8 00 00 00 00       	call   e <_main+0xe>
+   e:	c7 04 24 00 00 00 00 	mov    DWORD PTR [esp],0x0
+  15:	e8 00 00 00 00       	call   1a <_main+0x1a>
+  1a:	8d 44 24 14          	lea    eax,[esp+0x14]
+  1e:	89 44 24 08          	mov    DWORD PTR [esp+0x8],eax
+  22:	8d 44 24 18          	lea    eax,[esp+0x18]
+  26:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  2a:	c7 04 24 14 00 00 00 	mov    DWORD PTR [esp],0x14
+  31:	e8 00 00 00 00       	call   36 <_main+0x36>
+  36:	8b 54 24 18          	mov    edx,DWORD PTR [esp+0x18]
+  3a:	8b 44 24 14          	mov    eax,DWORD PTR [esp+0x14]
+  3e:	0f af c2             	imul   eax,edx
+  41:	89 44 24 1c          	mov    DWORD PTR [esp+0x1c],eax
+  45:	8b 44 24 1c          	mov    eax,DWORD PTR [esp+0x1c]
+  49:	89 44 24 04          	mov    DWORD PTR [esp+0x4],eax
+  4d:	c7 04 24 1a 00 00 00 	mov    DWORD PTR [esp],0x1a
+  54:	e8 00 00 00 00       	call   59 <_main+0x59>
+  59:	b8 00 00 00 00       	mov    eax,0x0
+  5e:	c9                   	leave  
+  5f:	c3                   	ret    
