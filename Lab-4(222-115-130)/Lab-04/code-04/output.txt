@@ -1,0 +1,4 @@
+Parsed a case: 1
+Parsed a case: 2
+Parsed a switch statement
+Parsing Finished
