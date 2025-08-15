@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+ {
+float price;
+int quantity;
+double total;
+total = price * quantity;
+if (total > 100) {
+int discount = 10; }
+printf("Total: %lf\n", total);
+return 0;
+}

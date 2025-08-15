@@ -1,0 +1,5 @@
+In line no 3, Inserting price with type REAL_TYPE in symbol table.
+In line no 4, Inserting quantity with type INT_TYPE in symbol table.
+In line no 5, Inserting total with type REAL_TYPE in symbol table.
+In line no 8, Inserting discount with type INT_TYPE in symbol table.
+Parsing finished
